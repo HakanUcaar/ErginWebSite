@@ -34,3 +34,22 @@ li {
     align-items: center;
   }
 }
+
+.layout-content {
+  padding: 2rem
+}
+
+@media screen and (min-width: 1921px) {
+  .layout-content .block-category,.layout-content .block-category-title,.layout-content .block-section,.layout-content .documentation,.layout-content .pricing-inner {
+      display:block;
+      width: 1478px;
+      margin-left: auto;
+      margin-right: auto
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .layout-content {
+      padding:2rem 1rem
+  }
+}
