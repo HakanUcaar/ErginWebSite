@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   ergin-website-app:
-    container_name: ergin-website-app
+    container_name: ergin_website_app
     build: .
     ports:
       - 3000:8080
