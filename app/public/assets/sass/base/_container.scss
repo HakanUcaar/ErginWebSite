@@ -1,0 +1,41 @@
+@import "/public/assets/sass/plugin/typed";
+
+.typed {
+  color: blueviolet;
+  @include typed(
+    "Fox Eyes Ameliyatı",
+    "Meme Dikleştirme",
+    "Meme Küçültme",
+    "Meme İmplantları",    
+    "Endoskopik Kaş Kaldırma",
+    "Blefaroplasti",
+    "Bişektomi",
+    "Yüz Lipofilling",
+    "İple Yüz Askı",
+    "Orta Yüz Germe",
+    "Tam Yüz Germe",
+    "Çene İmplantı",
+    "Rinoplasti",
+    "Otoplasti",
+    "Bişektomi",
+    "Jinekomasti",
+    "Vaser Liposuction",
+    "Karın Germe",
+    "Post Bariatrik Lipoabdominoplasti",
+    "Sırt Germe",
+    "Kol Germe",
+    "Six Pack Ameliyatı",
+    "Uyluk Germe",
+    "Brezilya Popo Kaldırma",
+    "Anne Estetiği",
+    "Genital Gençleştirme",
+    "Vajinoplasti",
+    "Labioplasti"
+  );
+  &::before {
+    font-weight: bold;
+  }
+  &::after {
+    border-right-width: 2px;
+  }
+}

@@ -70,7 +70,7 @@ const HomeSection = () => {
                 style={animate1}
               >
                 {" "}
-                Her adımı beraber .{" "}
+                Her adımda yanınızdayız .{" "}
               </p>
               <div
                 data-cues="slideInDown"

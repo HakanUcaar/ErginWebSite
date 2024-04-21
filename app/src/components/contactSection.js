@@ -12,7 +12,7 @@ const ContactSection = () => {
         </p>
         <div>
           <span class="btn btn-lg btn-primary rounded-pill me-2 scroll">
-            0507 599 47 71
+            0545 725 41 42
           </span>
         </div>
       </div>

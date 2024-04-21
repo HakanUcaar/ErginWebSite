@@ -69,7 +69,7 @@ const AboutSection = () => {
           <a href="#home" className="nav-link scroll">
             <img
               src="/assets/img/face.png"
-              srcset="/assets/img/doctor-2.png"
+              srcset="/assets/img/ergin-profil.jpg"
               alt=""
             />
           </a>
@@ -88,7 +88,7 @@ const AboutSection = () => {
           </p>
         </div>
       </div>
-      <div className="grid ">
+      {/* <div className="grid ">
         <div className="col-12 md:col-6 lg:col-6">
           <h1>İş tecrübeleri</h1>
           <Timeline
@@ -109,7 +109,7 @@ const AboutSection = () => {
             )}
           />
         </div>
-      </div>
+      </div> */}
     </SectionLayout>
   );
 };

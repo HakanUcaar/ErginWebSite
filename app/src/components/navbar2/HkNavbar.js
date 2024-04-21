@@ -55,7 +55,7 @@ const HkNavbar = () => {
                         />
                             <i class='fab fa-firstdraft' />
                         </Link>
-                        <h3> Dr. Ergin Erdoğan</h3>   
+                        <h3> Op. Dr. Ergin Erdoğan</h3>   
                     </div>
                 </div>
                 <ul className="flex align-items-center">
