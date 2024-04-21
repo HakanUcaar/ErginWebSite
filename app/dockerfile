@@ -1,4 +1,4 @@
-FROM node:14-alpine AS builder
+FROM node:20.11.0 AS builder
 WORKDIR /app
 # Cache and Install dependencies
 COPY package.json .
