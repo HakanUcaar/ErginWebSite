@@ -1,10 +1,9 @@
-@use "sass/base/_stickybar";
-@use "sass/base/container";
-@use "sass/base/_footer";
-@use "sass/layout/base";
-@use "sass/plugin/plugin";
-@use "sass/plugin/typed";
-@use "sass/layout/purple";
-@use "sass/base/hk_navbar";
-@use "sass/base/hk_header";
+@use "sass/_layout";
+@use "sass/_containers";
+@use "sass/_navbar";
+@use "sass/_gradient";
+@use "sass/plugin/_animate";
+@use "sass/plugin/_typed";
+@use "sass/_typing_effect";
+@use "sass/_font";
 

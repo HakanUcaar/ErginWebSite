@@ -1,22 +1,33 @@
-import React, { useState, useEffect } from "react";
-import SectionLayout from "../components/layout/sectionLayout";
+import React from "react";
+import Section from "../components/section";
+
+const backgroundImagePath = "/assets/img/about-header.jpg";
+const backgroundImg = {
+  backgroundImage: `url(${backgroundImagePath})`,
+  height: "50vh",
+  backgroundSize: "cover",
+};
 
 const AboutPage = () => {
   return (
-    <SectionLayout>
-      <div class="grid" style={{ padding: "50px" }}>
-        <div class="col-12 md:col-6 lg:col-6">
-          <a href="#home" className="nav-link scroll">
-            <img
-              src="/assets/img/face.png"
-              srcset="/assets/img/doctor-2.png"
-              alt=""
-            />
-          </a>
+    <div>
+      <Section style={backgroundImg}>
+        <div className="flex align-items-center justify-content-center h-100">
+          <h2 className="m-5 text-5xl display-4">Hakkımda</h2>
         </div>
-        <div class="col-12 md:col-6 lg:col-6 flex align-items-center justify-content-center">
-          <div className="grid">
-            <h2>Hakkımda</h2>
+      </Section>
+      <Section className="bg-soft-ash">
+        <div className="grid p-5">
+          <div className="col-12 sm:col-12 md:col-6 lg:col-6 p-5">
+            <img
+              className="border-round-md"
+              src="/assets/img/face.png"
+              srcset="/assets/img/ergin-profil.jpg"
+              alt=""
+              style={{ width: "100%" }}
+            />
+          </div>
+          <div className="flex col-12 sm:col-12 md:col-6 lg:col-6 align-items-center p-2">
             <p className="lead fs-lg">
               {" "}
               Tilki Göz Ameliyatı, Endoskopik Kaş Kaldırma, Blefaroplasti,
@@ -30,8 +41,8 @@ const AboutPage = () => {
             </p>
           </div>
         </div>
-      </div>
-    </SectionLayout>
+      </Section>
+    </div>
   );
 };
 

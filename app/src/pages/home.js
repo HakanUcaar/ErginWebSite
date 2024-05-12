@@ -1,19 +1,14 @@
 import React from "react";
-
-import HomeSection from "../components/homeSection";
-import AboutSection from "../components/aboutSection";
-import BeforeAfterSliderSection from "../components/beforeAfterSliderSection";
-import ContactSection from "../components/contactSection";
-import ContactLinearSection from "../components/contactLinearSection";
+import WelcomeSection from "../sections/welcome"
+import AboutSection from "../sections/about"
+import BookingSection from "../sections/booking"
 
 const HomePage = () => {
   return (
     <div>
-      <HomeSection />
-      <ContactLinearSection />
-      <AboutSection></AboutSection>
-      <BeforeAfterSliderSection></BeforeAfterSliderSection>
-      <ContactSection></ContactSection>
+      <WelcomeSection/>
+      <AboutSection/>
+      <BookingSection/>
     </div>
   );
 };

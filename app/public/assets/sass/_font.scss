@@ -1,0 +1,430 @@
+.font-monospace {
+    font-family: var(--bs-font-monospace)!important
+}
+
+.fst-italic {
+    font-style: italic!important
+}
+
+.fst-normal {
+    font-style: normal!important
+}
+
+.fw-light {
+    font-weight: 400!important
+}
+
+.fw-lighter {
+    font-weight: lighter!important
+}
+
+.fw-normal {
+    font-weight: 500!important
+}
+
+.fw-bold {
+    font-weight: 700!important
+}
+
+.fw-bolder {
+    font-weight: bolder!important
+}
+
+.lh-1 {
+    line-height: 1!important
+}
+
+.lh-xs {
+    line-height: 1.05!important
+}
+
+.lh-sm {
+    line-height: 1.5!important
+}
+
+.lh-base {
+    line-height: 1.7!important
+}
+
+.lh-lg {
+    line-height: 1.9!important
+}
+
+.text-start {
+    text-align: left!important
+}
+
+.text-end {
+    text-align: right!important
+}
+
+.text-center {
+    text-align: center!important
+}
+
+.text-decoration-none {
+    text-decoration: none!important
+}
+
+.text-decoration-underline {
+    text-decoration: underline!important
+}
+
+.text-decoration-line-through {
+    text-decoration: line-through!important
+}
+
+.text-lowercase {
+    text-transform: lowercase!important
+}
+
+.text-uppercase {
+    text-transform: uppercase!important
+}
+
+.text-capitalize {
+    text-transform: capitalize!important
+}
+
+.text-wrap {
+    white-space: normal!important
+}
+
+.text-nowrap {
+    white-space: nowrap!important
+}
+
+.text-break {
+    word-wrap: break-word!important;
+    word-break: break-word!important
+}
+
+.text-blue {
+    --bs-text-opacity: 1;
+    color: #3f78e0!important
+}
+
+.text-purple {
+    --bs-text-opacity: 1;
+    color: #747ed1!important
+}
+
+.text-violet {
+    --bs-text-opacity: 1;
+    color: #a07cc5!important
+}
+
+.text-pink {
+    --bs-text-opacity: 1;
+    color: #d16b86!important
+}
+
+.text-red {
+    --bs-text-opacity: 1;
+    color: #e2626b!important
+}
+
+.text-orange {
+    --bs-text-opacity: 1;
+    color: #f78b77!important
+}
+
+.text-yellow {
+    --bs-text-opacity: 1;
+    color: #fab758!important
+}
+
+.text-green {
+    --bs-text-opacity: 1;
+    color: #6bbea3!important
+}
+
+.text-leaf {
+    --bs-text-opacity: 1;
+    color: #7cb798!important
+}
+
+.text-aqua {
+    --bs-text-opacity: 1;
+    color: #54a8c7!important
+}
+
+.text-navy {
+    --bs-text-opacity: 1;
+    color: #343f52!important
+}
+
+.text-ash {
+    --bs-text-opacity: 1;
+    color: #9499a3!important
+}
+
+.text-white {
+    --bs-text-opacity: 1;
+    color: #fff!important
+}
+
+.text-light {
+    --bs-text-opacity: 1;
+    color: #fefefe!important
+}
+
+.text-gray {
+    --bs-text-opacity: 1;
+    color: #f6f7f9!important
+}
+
+.text-primary {
+    --bs-text-opacity: 1;
+    color: #3f78e0!important
+}
+
+.text-secondary {
+    --bs-text-opacity: 1;
+    color: #aab0bc!important
+}
+
+.text-success {
+    --bs-text-opacity: 1;
+    color: #6bbea3!important
+}
+
+.text-info {
+    --bs-text-opacity: 1;
+    color: #54a8c7!important
+}
+
+.text-warning {
+    --bs-text-opacity: 1;
+    color: #fab758!important
+}
+
+.text-danger {
+    --bs-text-opacity: 1;
+    color: #e2626b!important
+}
+
+.text-body {
+    --bs-text-opacity: 1;
+    color: #60697b!important
+}
+
+.text-muted {
+    --bs-text-opacity: 1;
+    color: #aab0bc!important
+}
+
+.text-inverse {
+    --bs-text-opacity: 1;
+    color: #cacaca!important
+}
+
+.text-dark {
+    --bs-text-opacity: 1;
+    color: #343f52!important
+}
+
+.text-black-50 {
+    --bs-text-opacity: 1;
+    color: rgba(0,0,0,.5)!important
+}
+
+.text-white-50 {
+    --bs-text-opacity: 1;
+    color: rgba(255,255,255,.5)!important
+}
+
+.text-reset {
+    --bs-text-opacity: 1;
+    color: inherit!important
+}
+
+.text-opacity-25 {
+    --bs-text-opacity: 0.25
+}
+
+.text-opacity-50 {
+    --bs-text-opacity: 0.5
+}
+
+.text-opacity-75 {
+    --bs-text-opacity: 0.75
+}
+
+.text-opacity-100 {
+    --bs-text-opacity: 1
+}
+
+.lead {
+    font-size: .9rem;
+    font-weight: 500;
+    line-height: 1.65
+}
+.lead.fs-lg {
+    font-size: 1.05rem;
+    line-height: 1.6
+}
+
+.display-1 {
+    font-size: calc(1.365rem + 1.38vw);
+    font-weight: 700;
+    line-height: 1.2
+}
+
+@media (min-width: 1200px) {
+    .display-1 {
+        font-size:2.4rem
+    }
+}
+
+.display-2 {
+    font-size: calc(1.345rem + 1.14vw);
+    font-weight: 700;
+    line-height: 1.2
+}
+
+@media (min-width: 1200px) {
+    .display-2 {
+        font-size:2.2rem
+    }
+}
+
+.display-3 {
+    font-size: calc(1.325rem + .9vw);
+    font-weight: 700;
+    line-height: 1.2
+}
+
+@media (min-width: 1200px) {
+    .display-3 {
+        font-size:2rem
+    }
+}
+
+.display-4 {
+    font-size: calc(1.305rem + .66vw);
+    font-weight: 700;
+    line-height: 1.2
+}
+
+@media (min-width: 1200px) {
+    .display-4 {
+        font-size:1.8rem
+    }
+}
+
+.display-5 {
+    font-size: calc(1.285rem + .42vw);
+    font-weight: 700;
+    line-height: 1.2
+}
+
+@media (min-width: 1200px) {
+    .display-5 {
+        font-size:1.6rem
+    }
+}
+
+.display-6 {
+    font-size: calc(1.265rem + .18vw);
+    font-weight: 700;
+    line-height: 1.2
+}
+
+@media (min-width: 1200px) {
+    .display-6 {
+        font-size:1.4rem
+    }
+}
+
+a {
+    color: #cacaca;
+    text-decoration: none
+}
+
+a:hover {
+    color: #3f78e0
+}
+
+a:not([href]):not([class]),a:not([href]):not([class]):hover {
+    color: inherit;
+    text-decoration: none
+}
+code,kbd,pre,samp {
+    font-family: var(--bs-font-monospace);
+    font-size: 1em;
+    direction: ltr;
+    unicode-bidi: bidi-override
+}
+
+pre {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    overflow: auto;
+    font-size: .65rem;
+    color: #273444
+}
+
+pre code {
+    font-size: inherit;
+    color: inherit;
+    word-break: normal
+}
+
+code {
+    font-size: .65rem;
+    color: #60697b;
+    word-wrap: break-word
+}
+
+a>code {
+    color: inherit
+}
+
+a {
+    transition: all .2s ease-in-out
+}
+
+@media (prefers-reduced-motion:reduce) {
+    a {
+        transition: none
+    }
+}
+
+a.hover {
+    position: relative
+}
+
+a.hover::before {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: currentColor;
+    top: 100%;
+    left: 0;
+    pointer-events: none
+}
+
+a.hover::before {
+    content: "";
+    transform-origin: 100% 50%;
+    transform: scale3d(0,1,1);
+    transition: transform .3s cubic-bezier(.7,0,.2,1)
+}
+
+a.hover:hover::before {
+    transform-origin: 0 50%;
+    transform: scale3d(1,1,1);
+    transition-timing-function: cubic-bezier(.4,1,.8,1)
+}
+
+a.hover:hover::before {
+    transform-origin: 0 50%;
+    transform: scale3d(1,1,1);
+    transition-timing-function: cubic-bezier(.4,1,.8,1)
+}
+
+.text-reset a {
+    color: inherit!important
+}

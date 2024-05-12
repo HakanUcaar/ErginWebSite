@@ -1,0 +1,27 @@
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: inherit;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.content {
+  padding: 16px;
+}
+
+.hk-navbar-logo {
+  color: #fff;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.logo-img {
+  width: 70px
+}
